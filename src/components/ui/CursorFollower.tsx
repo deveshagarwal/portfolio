@@ -20,7 +20,6 @@ export function CursorFollower() {
 
     let animationFrameId: number;
     let lastScrollY = window.scrollY;
-    let scrollTimeout: NodeJS.Timeout;
 
     const updateMousePosition = (e: MouseEvent) => {
       if (!isMobile) {
@@ -83,7 +82,6 @@ export function CursorFollower() {
       window.removeEventListener("scroll", handleScroll);
       window.removeEventListener('resize', checkMobile);
       cancelAnimationFrame(animationFrameId);
-      if (scrollTimeout) clearTimeout(scrollTimeout);
     };
   }, [mousePosition, isMobile]);
 

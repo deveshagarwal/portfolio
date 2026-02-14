@@ -8,7 +8,7 @@ interface MediaCardProps {
   title: string;
   subtitle: string;
   rating: number;
-  year: number;
+  year?: number;
   imageUrl?: string;
   notes?: string;
 }
