@@ -163,7 +163,7 @@ export function Contact() {
 
           <div className="text-center text-sm text-muted-foreground">
             <p>
-              Built with Next.js, TypeScript, and Tailwind CSS •{" "}
+              Built with React, Next.js, TypeScript, and Tailwind CSS •{" "}
               {new Date().getFullYear()}
             </p>
             <p className="mt-2">

@@ -1,6 +1,6 @@
 # Personal Portfolio with Interactive Map of Me
 
-A unique, interactive portfolio website featuring an innovative constellation-style "Map of Me" navigation system. Built with Next.js 14, TypeScript, Tailwind CSS, and Framer Motion.
+A unique, interactive portfolio website featuring an innovative constellation-style "Map of Me" navigation system. Built with React, Next.js 14, TypeScript, Tailwind CSS, and Framer Motion.
 
 ## Features
 
@@ -280,4 +280,4 @@ For issues or questions:
 
 ---
 
-Built with Next.js, TypeScript, and Tailwind CSS
+Built with React, Next.js, TypeScript, and Tailwind CSS
