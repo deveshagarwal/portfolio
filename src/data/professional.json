@@ -1,0 +1,68 @@
+{
+  "intro": "I spend my days building systems that make marketplaces smarter. Currently, I'm working on AI agents that simulate how buyers and sellers interact, trying to predict ripple effects before they happen. It's the kind of problem that sits at the intersection of economics, machine learning, and a bit of controlled chaos.",
+  "experiences": [
+    {
+      "title": "Applied Science Staff",
+      "company": "Thumbtack",
+      "description": "I'm building AI agents that simulate marketplace dynamics—imagining thousands of buyer-seller interactions to predict how changes ripple through supply and demand before they happen in the real world."
+    },
+    {
+      "title": "Machine Learning, Various Roles",
+      "company": "Equinix",
+      "description": "I designed RAG systems that became the conversational interface for a global data center network, built computer vision algorithms watching over 200+ facilities, and led the ML operations behind sales tools that actually worked—ranked #1 by the people using them."
+    },
+    {
+      "title": "Co-Founder",
+      "company": "LaunchPad AI",
+      "description": "We're building a way for small businesses to describe what they need and have LLMs design, build, and deploy the infrastructure automatically—turning conversations into working applications."
+    },
+    {
+      "title": "Data Science Intern",
+      "company": "Visa",
+      "description": "I built pipelines that parsed millions of server logs daily and designed anomaly detection systems that saved the cybersecurity team over a thousand hours each week hunting for threats."
+    }
+  ],
+  "education": {
+    "degrees": [
+      {
+        "degree": "Computer & Data Science",
+        "school": "University of California, Berkeley"
+      },
+      {
+        "degree": "Business Administration",
+        "school": "Haas School of Business, Berkeley"
+      }
+    ],
+    "skills": {
+      "languages": ["Python", "Java", "Scala", "SQL"],
+      "modules": ["PyTorch", "Keras", "TensorFlow", "OpenCV", "scikit-learn", "XGBoost", "LightGBM", "NumPy", "Pandas"],
+      "mlops": ["GCP", "Azure", "Airflow", "Hadoop", "Spark", "Splunk", "Tableau"],
+      "genai": ["HuggingFace", "Llama", "OpenAI", "Claude Code", "RAG", "LangChain", "Prompt Engineering", "Image Gen"]
+    },
+    "coursework": [
+      "Advanced Machine Learning",
+      "Artificial Intelligence",
+      "Computer Vision",
+      "Advanced Probability",
+      "Decision Theory",
+      "Data Structures and Algorithms",
+      "Machine Structures/Architecture",
+      "Intro to Data Science (Teaching 4x)",
+      "Consumer Behavior"
+    ]
+  },
+  "projects": [
+    {
+      "title": "EthiCar, Self-Driving Prototype",
+      "description": "Built a car that detects traffic signs, pedestrians, or animals and makes ethical decisions."
+    },
+    {
+      "title": "SETI Research Institute",
+      "description": "Analyzed sound waves from space to try to detect alien communication."
+    },
+    {
+      "title": "Design for Equity Lab",
+      "description": "Studied gamified pedagogy to determine most effective and equitable teaching techniques."
+    }
+  ]
+}

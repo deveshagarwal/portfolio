@@ -1,0 +1,38 @@
+{
+  "intro": "I read compulsively and indiscriminately. Fiction, non-fiction, philosophy, behavioral economics—whatever catches my attention. Some books change how I see the world. Others just keep me company on a quiet evening. Here's what's been on my nightstand.",
+  "books": [
+    {
+      "id": "book-1",
+      "title": "Thinking, Fast and Slow",
+      "author": "Daniel Kahneman",
+      "cover": "/images/book-covers/thinking-fast-slow.jpg",
+      "rating": 5,
+      "year": 2024,
+      "notes": "A fascinating exploration of the two systems that drive the way we think."
+    },
+    {
+      "id": "book-2",
+      "title": "The Master Algorithm",
+      "author": "Pedro Domingos",
+      "rating": 4,
+      "year": 2024,
+      "notes": "An accessible introduction to machine learning and its potential to transform society."
+    },
+    {
+      "id": "book-3",
+      "title": "Sapiens",
+      "author": "Yuval Noah Harari",
+      "rating": 5,
+      "year": 2023,
+      "notes": "A brief history of humankind that challenges our understanding of what it means to be human."
+    },
+    {
+      "id": "book-4",
+      "title": "Deep Learning",
+      "author": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+      "rating": 5,
+      "year": 2023,
+      "notes": "The comprehensive textbook on deep learning theory and practice."
+    }
+  ]
+}

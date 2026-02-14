@@ -1,0 +1,45 @@
+{
+  "nodes": [
+    {
+      "id": "center",
+      "label": "Devesh",
+      "targetSection": "/",
+      "position": { "x": 50, "y": 50 },
+      "isCenter": true
+    },
+    {
+      "id": "professional",
+      "label": "Professional",
+      "targetSection": "/professional",
+      "position": { "x": 28, "y": 32 },
+      "icon": "briefcase"
+    },
+    {
+      "id": "writing",
+      "label": "Writing",
+      "targetSection": "/writing",
+      "position": { "x": 75, "y": 25 },
+      "icon": "pen"
+    },
+    {
+      "id": "reading",
+      "label": "Reading",
+      "targetSection": "/reading",
+      "position": { "x": 68, "y": 70 },
+      "icon": "book"
+    },
+    {
+      "id": "movies",
+      "label": "Movies",
+      "targetSection": "/movies",
+      "position": { "x": 25, "y": 75 },
+      "icon": "film"
+    }
+  ],
+  "connections": [
+    { "from": "center", "to": "professional" },
+    { "from": "center", "to": "writing" },
+    { "from": "center", "to": "reading" },
+    { "from": "center", "to": "movies" }
+  ]
+}

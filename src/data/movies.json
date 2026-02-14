@@ -1,0 +1,45 @@
+{
+  "intro": "Film has always felt like borrowed time—two hours where the world stops and you're allowed to live someone else's story. I love the quiet intimacy of character studies, the visual poetry of a well-composed frame, and the way a good soundtrack can haunt you for weeks. Here are some films that have stayed with me.",
+  "movies": [
+    {
+      "id": "movie-1",
+      "title": "Inception",
+      "director": "Christopher Nolan",
+      "year": 2010,
+      "rating": 5,
+      "genre": "Sci-Fi"
+    },
+    {
+      "id": "movie-2",
+      "title": "The Shawshank Redemption",
+      "director": "Frank Darabont",
+      "year": 1994,
+      "rating": 5,
+      "genre": "Drama"
+    },
+    {
+      "id": "movie-3",
+      "title": "Parasite",
+      "director": "Bong Joon-ho",
+      "year": 2019,
+      "rating": 5,
+      "genre": "Thriller"
+    },
+    {
+      "id": "movie-4",
+      "title": "Blade Runner 2049",
+      "director": "Denis Villeneuve",
+      "year": 2017,
+      "rating": 4,
+      "genre": "Sci-Fi"
+    },
+    {
+      "id": "movie-5",
+      "title": "The Grand Budapest Hotel",
+      "director": "Wes Anderson",
+      "year": 2014,
+      "rating": 5,
+      "genre": "Comedy"
+    }
+  ]
+}
