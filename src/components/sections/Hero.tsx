@@ -24,7 +24,7 @@ export function Hero() {
 
       // Try to find a position that's not too close to other stars or edges
       let attempts = 0;
-      let x, y, angle, distance;
+      let x: number, y: number, angle: number, distance: number;
 
       do {
         angle = Math.random() * Math.PI * 2;
