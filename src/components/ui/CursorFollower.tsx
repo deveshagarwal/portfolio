@@ -8,7 +8,6 @@ export function CursorFollower() {
   const [isVisible, setIsVisible] = useState(false);
   const [trail, setTrail] = useState<{ x: number; y: number }[]>([]);
   const [isMobile, setIsMobile] = useState(false);
-  const [scrollComets, setScrollComets] = useState<{ id: number; x: number; y: number; direction: number }[]>([]);
 
   useEffect(() => {
     // Detect if mobile
@@ -34,31 +33,6 @@ export function CursorFollower() {
       }
     };
 
-    // Handle scroll on mobile - create comet effect
-    const handleScroll = () => {
-      if (isMobile) {
-        const currentScrollY = window.scrollY;
-        const scrollDelta = currentScrollY - lastScrollY;
-
-        if (Math.abs(scrollDelta) > 5) {
-          const direction = scrollDelta > 0 ? 1 : -1;
-          const newComet = {
-            id: Date.now(),
-            x: Math.random() * window.innerWidth,
-            y: window.innerHeight / 2,
-            direction
-          };
-          setScrollComets((prev) => [...prev, newComet]);
-
-          // Remove comet after animation
-          setTimeout(() => {
-            setScrollComets((prev) => prev.filter((c) => c.id !== newComet.id));
-          }, 800);
-        }
-
-        lastScrollY = currentScrollY;
-      }
-    };
 
     // Update trail on every frame (desktop only)
     const updateTrail = () => {
@@ -73,13 +47,11 @@ export function CursorFollower() {
 
     window.addEventListener("mousemove", updateMousePosition);
     document.addEventListener("mouseleave", handleMouseLeave);
-    window.addEventListener("scroll", handleScroll, { passive: true });
     animationFrameId = requestAnimationFrame(updateTrail);
 
     return () => {
       window.removeEventListener("mousemove", updateMousePosition);
       document.removeEventListener("mouseleave", handleMouseLeave);
-      window.removeEventListener("scroll", handleScroll);
       window.removeEventListener('resize', checkMobile);
       cancelAnimationFrame(animationFrameId);
     };
@@ -87,42 +59,6 @@ export function CursorFollower() {
 
   return (
     <>
-      {/* Mobile scroll comets */}
-      {isMobile && scrollComets.map((comet) => (
-        <motion.div
-          key={comet.id}
-          className="fixed pointer-events-none z-50"
-          initial={{
-            x: comet.x,
-            y: comet.y,
-            opacity: 1,
-            scale: 1
-          }}
-          animate={{
-            x: comet.direction > 0 ? comet.x + 300 : comet.x - 300,
-            y: comet.y + comet.direction * 100,
-            opacity: 0,
-            scale: 0.5
-          }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
-        >
-          <div className="relative w-3 h-3">
-            <div className="absolute inset-0 bg-white rounded-full blur-sm" />
-            <div className="absolute inset-0.5 bg-blue-200 rounded-full" />
-            {/* Trail effect */}
-            <div
-              className="absolute top-1/2 -translate-y-1/2 h-0.5 bg-gradient-to-r from-blue-300 via-blue-400 to-transparent"
-              style={{
-                width: '60px',
-                right: comet.direction > 0 ? '100%' : 'auto',
-                left: comet.direction < 0 ? '100%' : 'auto',
-                transform: comet.direction < 0 ? 'scaleX(-1) translateY(-50%)' : 'translateY(-50%)'
-              }}
-            />
-          </div>
-        </motion.div>
-      ))}
-
       {/* Desktop cursor follower */}
       {!isMobile && isVisible && (
         <>
