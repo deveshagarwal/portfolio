@@ -105,6 +105,7 @@ export function Hero() {
             paragraph.trim() && (
               <p
                 key={i}
+                style={{ color: 'rgba(255, 255, 255, 0.9)' }}
                 dangerouslySetInnerHTML={{ __html: paragraph }}
               />
             )
