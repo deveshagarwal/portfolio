@@ -6,6 +6,7 @@ import { ThemeToggle } from "@/components/layout/ThemeToggle";
 import { CursorFollower } from "@/components/ui/CursorFollower";
 import { Navigation } from "@/components/layout/Navigation";
 import { StructuredData } from "@/components/seo/StructuredData";
+import { Analytics } from "@vercel/analytics/next";
 
 const cairoPlay = Cairo_Play({
   subsets: ["latin"],
@@ -120,6 +121,7 @@ export default function RootLayout({
             </div>
           </div>
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
