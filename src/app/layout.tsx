@@ -40,7 +40,6 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           {/* Content */}
           <div className="relative z-10">
-            <div className="fixed inset-0 bg-white/10 pointer-events-none z-1"></div>
             <div className="relative z-20">
               <CursorFollower />
               <Navigation />
