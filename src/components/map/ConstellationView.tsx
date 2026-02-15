@@ -16,6 +16,17 @@ export function ConstellationView({
 }: ConstellationViewProps) {
   // Track rotation angle for counter-rotating text
   const [rotationAngle, setRotationAngle] = useState(0);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
 
   useEffect(() => {
     const startTime = Date.now();
@@ -51,7 +62,7 @@ export function ConstellationView({
 
   return (
     <svg
-      viewBox="10 10 80 80"
+      viewBox={isMobile ? "10 10 80 80" : "0 0 100 100"}
       className="w-full h-full"
       preserveAspectRatio="xMidYMid meet"
     >

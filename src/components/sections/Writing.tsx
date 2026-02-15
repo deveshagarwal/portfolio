@@ -76,25 +76,47 @@ export function Writing() {
           )}
 
           {!loading && !error && articles.length > 0 && (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {articles.map((article, index) => (
-                <motion.div
-                  key={article.link}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: index * 0.1 }}
+            <>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {articles.map((article, index) => (
+                  <motion.div
+                    key={article.link}
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.5, delay: index * 0.1 }}
+                  >
+                    <ArticleCard
+                      title={article.title}
+                      link={article.link}
+                      pubDate={article.pubDate}
+                      excerpt={article.contentSnippet}
+                      imageUrl={article.imageUrl}
+                    />
+                  </motion.div>
+                ))}
+              </div>
+
+              <motion.div
+                className="text-center mt-12"
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.6 }}
+              >
+                <a
+                  href="https://substack.com/@verydevesh"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/20 text-white font-medium rounded-full transition-all"
                 >
-                  <ArticleCard
-                    title={article.title}
-                    link={article.link}
-                    pubDate={article.pubDate}
-                    excerpt={article.contentSnippet}
-                    imageUrl={article.imageUrl}
-                  />
-                </motion.div>
-              ))}
-            </div>
+                  <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z" />
+                  </svg>
+                  Subscribe to my Substack
+                </a>
+              </motion.div>
+            </>
           )}
         </motion.div>
       </div>

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "name": "Deep Focus",
+    "description": "Music for coding and deep work sessions",
+    "imageUrl": "https://via.placeholder.com/300x300/1DB954/ffffff?text=Deep+Focus",
+    "spotifyUrl": "https://open.spotify.com/playlist/YOUR_PLAYLIST_ID",
+    "trackCount": 42
+  },
+  {
+    "id": "2",
+    "name": "Late Night Vibes",
+    "description": "Chill beats for late night contemplation",
+    "imageUrl": "https://via.placeholder.com/300x300/1DB954/ffffff?text=Late+Night",
+    "spotifyUrl": "https://open.spotify.com/playlist/YOUR_PLAYLIST_ID",
+    "trackCount": 38
+  },
+  {
+    "id": "3",
+    "name": "Morning Coffee",
+    "description": "Perfect soundtrack for starting the day",
+    "imageUrl": "https://via.placeholder.com/300x300/1DB954/ffffff?text=Morning",
+    "spotifyUrl": "https://open.spotify.com/playlist/YOUR_PLAYLIST_ID",
+    "trackCount": 25
+  }
+]
