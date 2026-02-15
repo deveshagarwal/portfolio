@@ -95,7 +95,8 @@ export function Hero() {
         </motion.h1>
 
         <motion.div
-          className="text-base sm:text-lg text-white/90 max-w-2xl mx-auto space-y-4"
+          className="text-base sm:text-lg max-w-2xl mx-auto space-y-4"
+          style={{ color: 'rgba(255, 255, 255, 0.9)' }}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.8 }}
