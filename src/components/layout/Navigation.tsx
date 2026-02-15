@@ -59,9 +59,9 @@ export function Navigation() {
               animate={{ x: 0, opacity: 1 }}
               exit={{ x: -300, opacity: 0 }}
               transition={{ duration: 0.3, ease: "easeInOut" }}
-              className="fixed left-0 top-0 h-full w-64 bg-black/15 backdrop-blur-md z-40 p-8 pt-24"
+              className="fixed left-0 top-0 h-full w-56 sm:w-64 bg-black/15 backdrop-blur-md z-40 p-6 sm:p-8 pt-20 sm:pt-24"
             >
-              <nav className="flex flex-col space-y-6">
+              <nav className="flex flex-col space-y-4 sm:space-y-6">
                 {navItems.map((item, index) => (
                   <motion.button
                     key={item.path}
@@ -69,7 +69,7 @@ export function Navigation() {
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.3, delay: index * 0.1 }}
                     onClick={() => handleNavigation(item.path)}
-                    className="text-left text-xl text-white/80 hover:text-white transition-colors"
+                    className="text-left text-lg sm:text-xl text-white/80 hover:text-white transition-colors"
                   >
                     {item.label}
                   </motion.button>

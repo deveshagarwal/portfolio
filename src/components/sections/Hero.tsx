@@ -61,16 +61,16 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-screen flex flex-col items-center justify-center relative px-4 py-12"
+      className="min-h-screen flex flex-col items-center justify-center relative px-4 py-8 sm:py-12"
     >
       {/* Constellation Map */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="w-full max-w-6xl relative z-10 mb-12"
+        className="w-full max-w-6xl relative z-10 mb-8 sm:mb-12"
       >
-        <div className="w-full h-[70vh] relative">
+        <div className="w-full h-[50vh] sm:h-[60vh] md:h-[70vh] relative">
           <ConstellationView
             nodes={randomizedNodes}
             connections={mapConfig.connections}
@@ -86,7 +86,7 @@ export function Hero() {
         className="text-center max-w-4xl relative z-10"
       >
         <motion.h1
-          className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 text-white"
+          className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 sm:mb-8 text-white"
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.6 }}
@@ -95,7 +95,7 @@ export function Hero() {
         </motion.h1>
 
         <motion.div
-          className="text-sm md:text-base text-white/90 max-w-2xl mx-auto space-y-4"
+          className="text-sm sm:text-base text-white/90 max-w-2xl mx-auto space-y-3 sm:space-y-4"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.8 }}
