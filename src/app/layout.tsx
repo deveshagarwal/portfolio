@@ -27,8 +27,15 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Devesh Agarwal - Machine Learning Engineer & Applied Scientist",
-  description: "Machine Learning Engineer and Applied Scientist specializing in AI/ML, RAG systems, computer vision, and GenAI. Experience at Thumbtack, Equinix, and Visa. Berkeley graduate with expertise in Python, PyTorch, and LLMs.",
+  description: "Devesh Agarwal is a Machine Learning Engineer and Applied Scientist specializing in AI/ML, RAG systems, computer vision, and GenAI. Currently at Thumbtack. Previously Equinix and Visa. UC Berkeley graduate with expertise in Python, PyTorch, and LLMs.",
   keywords: [
+    "Devesh Agarwal",
+    "Devesh",
+    "Devesh Agarwal portfolio",
+    "Devesh Agarwal Machine Learning",
+    "Devesh Agarwal Berkeley",
+    "Devesh Agarwal Thumbtack",
+    "Devesh Agarwal Equinix",
     "Machine Learning Engineer",
     "Applied Scientist",
     "AI Engineer",
@@ -42,7 +49,6 @@ export const metadata: Metadata = {
     "Berkeley",
     "Thumbtack",
     "Equinix",
-    "Devesh Agarwal",
     "ML Engineer NYC",
     "AI jobs"
   ],
@@ -53,8 +59,8 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://verydevesh.vercel.app",
     title: "Devesh Agarwal - Machine Learning Engineer & Applied Scientist",
-    description: "Machine Learning Engineer specializing in AI/ML, RAG systems, computer vision, and GenAI. Available for hire.",
-    siteName: "Devesh Agarwal Portfolio",
+    description: "Devesh Agarwal - Machine Learning Engineer specializing in AI/ML, RAG systems, computer vision, and GenAI. Currently at Thumbtack.",
+    siteName: "Devesh Agarwal",
     images: [
       {
         url: "/images/profile.jpeg",

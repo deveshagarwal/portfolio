@@ -3,9 +3,11 @@ export function StructuredData() {
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Devesh Agarwal",
+    alternateName: "Devesh",
     url: "https://verydevesh.vercel.app",
     image: "https://verydevesh.vercel.app/images/profile.jpeg",
-    jobTitle: "Machine Learning Engineer",
+    jobTitle: "Machine Learning Engineer & Applied Scientist",
+    description: "Machine Learning Engineer and Applied Scientist specializing in AI/ML, RAG systems, computer vision, and GenAI",
     worksFor: {
       "@type": "Organization",
       name: "Thumbtack",
