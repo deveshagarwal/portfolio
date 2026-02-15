@@ -51,7 +51,7 @@ export function ConstellationView({
 
   return (
     <svg
-      viewBox="0 0 100 100"
+      viewBox="10 10 80 80"
       className="w-full h-full"
       preserveAspectRatio="xMidYMid meet"
     >
