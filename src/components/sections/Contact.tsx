@@ -48,7 +48,7 @@ export function Contact() {
   };
 
   return (
-    <section id="contact" className="min-h-screen py-12 px-4">
+    <section id="contact" className="min-h-screen py-8 sm:py-12 px-4">
       <div className="max-w-4xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -58,7 +58,7 @@ export function Contact() {
         >
           <SectionHeading>Get In Touch</SectionHeading>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 mb-8 sm:mb-12">
             {/* Contact Form */}
             <Card>
               <CardContent className="pt-6">
@@ -78,7 +78,7 @@ export function Contact() {
                         setFormData({ ...formData, name: e.target.value })
                       }
                       required
-                      className="w-full px-3 py-2 border border-border rounded-md bg-background focus:outline-none focus:ring-2 focus:ring-primary"
+                      className="w-full px-3 py-3 sm:py-2 text-base border border-border rounded-md bg-background focus:outline-none focus:ring-2 focus:ring-primary"
                     />
                   </div>
 
@@ -97,7 +97,7 @@ export function Contact() {
                         setFormData({ ...formData, email: e.target.value })
                       }
                       required
-                      className="w-full px-3 py-2 border border-border rounded-md bg-background focus:outline-none focus:ring-2 focus:ring-primary"
+                      className="w-full px-3 py-3 sm:py-2 text-base border border-border rounded-md bg-background focus:outline-none focus:ring-2 focus:ring-primary"
                     />
                   </div>
 
@@ -116,7 +116,7 @@ export function Contact() {
                       }
                       required
                       rows={4}
-                      className="w-full px-3 py-2 border border-border rounded-md bg-background focus:outline-none focus:ring-2 focus:ring-primary"
+                      className="w-full px-3 py-3 sm:py-2 text-base border border-border rounded-md bg-background focus:outline-none focus:ring-2 focus:ring-primary"
                     />
                   </div>
 

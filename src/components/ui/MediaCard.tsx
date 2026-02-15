@@ -32,11 +32,11 @@ export function MediaCard({
           />
         </div>
       )}
-      <CardHeader className="pb-2 p-3">
-        <CardTitle className="text-sm line-clamp-2 leading-tight">{title}</CardTitle>
+      <CardHeader className="pb-2 p-2 sm:p-3">
+        <CardTitle className="text-xs sm:text-sm line-clamp-2 leading-tight">{title}</CardTitle>
         <p className="text-xs text-muted-foreground line-clamp-1">{subtitle}</p>
       </CardHeader>
-      <CardContent className="p-3 pt-0">
+      <CardContent className="p-2 sm:p-3 pt-0">
         <div className="flex items-center gap-2 text-xs">
           <div className="flex items-center gap-0.5">
             {Array.from({ length: 5 }).map((_, i) => (

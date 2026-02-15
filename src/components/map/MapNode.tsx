@@ -95,6 +95,8 @@ export function MapNode({ id, label, targetSection, x, y, isCenter, icon, rotati
       onClick={handleClick}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
+      onTouchStart={() => setIsHovered(true)}
+      onTouchEnd={() => setIsHovered(false)}
       className="cursor-pointer"
       transform={`translate(${x}, ${y})`}
     >
@@ -162,7 +164,7 @@ export function MapNode({ id, label, targetSection, x, y, isCenter, icon, rotati
           y="9"
           textAnchor="middle"
           className="fill-white pointer-events-none font-light"
-          style={{ fontSize: '2.5px', letterSpacing: '0.05em' }}
+          style={{ fontSize: '3px', letterSpacing: '0.05em' }}
           initial={{ opacity: 0 }}
           animate={{ opacity: isHovered ? 0.9 : 0 }}
           transition={{ duration: 0.2 }}

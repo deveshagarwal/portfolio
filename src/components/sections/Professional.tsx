@@ -9,7 +9,7 @@ import Link from "next/link";
 
 export function Professional() {
   return (
-    <section id="professional" className="min-h-screen py-12 px-4">
+    <section id="professional" className="min-h-screen py-8 sm:py-12 px-4">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -41,9 +41,9 @@ export function Professional() {
           </div>
 
           {/* Experience */}
-          <div className="mb-12">
-            <h3 className="text-2xl font-bold mb-12 text-center">Experience</h3>
-            <div className="max-w-3xl mx-auto space-y-10">
+          <div className="mb-8 sm:mb-12">
+            <h3 className="text-xl sm:text-2xl font-bold mb-8 sm:mb-12 text-center">Experience</h3>
+            <div className="max-w-3xl mx-auto space-y-6 sm:space-y-10">
               {professionalData.experiences.map((exp: any, index: number) => (
                 <motion.div
                   key={index}
@@ -67,11 +67,11 @@ export function Professional() {
 
           {/* Education */}
           {professionalData.education && (
-            <div className="mb-12">
-              <h3 className="text-2xl font-bold mb-6">Education</h3>
+            <div className="mb-8 sm:mb-12">
+              <h3 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6">Education</h3>
 
               {/* Degrees */}
-              <div className="mb-8">
+              <div className="mb-6 sm:mb-8">
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
@@ -99,7 +99,7 @@ export function Professional() {
               </div>
 
               {/* Skills */}
-              <div className="mb-8">
+              <div className="mb-6 sm:mb-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                   <motion.div
                     initial={{ opacity: 0, y: 20 }}
@@ -221,7 +221,7 @@ export function Professional() {
           {/* Projects */}
           {professionalData.projects && professionalData.projects.length > 0 && (
             <div>
-              <h3 className="text-2xl font-bold mb-6">Selected Projects</h3>
+              <h3 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6">Selected Projects</h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {professionalData.projects.map((project: any, index: number) => (
                   <motion.div

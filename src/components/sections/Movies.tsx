@@ -43,7 +43,7 @@ export function Movies() {
   }, []);
 
   return (
-    <section id="movies" className="min-h-screen py-12 px-4">
+    <section id="movies" className="min-h-screen py-8 sm:py-12 px-4">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
