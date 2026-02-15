@@ -26,6 +26,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://verydevesh.vercel.app'),
   title: "Devesh Agarwal - Machine Learning Engineer & Applied Scientist",
   description: "Devesh Agarwal is a Machine Learning Engineer and Applied Scientist specializing in AI/ML, RAG systems, computer vision, and GenAI. Currently at Thumbtack. Previously Equinix and Visa. UC Berkeley graduate with expertise in Python, PyTorch, and LLMs.",
   keywords: [
