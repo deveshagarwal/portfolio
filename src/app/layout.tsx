@@ -5,6 +5,7 @@ import { ThemeProvider } from "next-themes";
 import { ThemeToggle } from "@/components/layout/ThemeToggle";
 import { CursorFollower } from "@/components/ui/CursorFollower";
 import { Navigation } from "@/components/layout/Navigation";
+import { StructuredData } from "@/components/seo/StructuredData";
 
 const cairoPlay = Cairo_Play({
   subsets: ["latin"],
@@ -25,8 +26,61 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio - Your Name",
-  description: "Applied Scientist & Creative Thinker",
+  title: "Devesh Agarwal - Machine Learning Engineer & Applied Scientist",
+  description: "Machine Learning Engineer and Applied Scientist specializing in AI/ML, RAG systems, computer vision, and GenAI. Experience at Thumbtack, Equinix, and Visa. Berkeley graduate with expertise in Python, PyTorch, and LLMs.",
+  keywords: [
+    "Machine Learning Engineer",
+    "Applied Scientist",
+    "AI Engineer",
+    "Data Scientist",
+    "RAG",
+    "LLM",
+    "Computer Vision",
+    "Python",
+    "PyTorch",
+    "GenAI",
+    "Berkeley",
+    "Thumbtack",
+    "Equinix",
+    "Devesh Agarwal",
+    "ML Engineer NYC",
+    "AI jobs"
+  ],
+  authors: [{ name: "Devesh Agarwal" }],
+  creator: "Devesh Agarwal",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://verydevesh.vercel.app",
+    title: "Devesh Agarwal - Machine Learning Engineer & Applied Scientist",
+    description: "Machine Learning Engineer specializing in AI/ML, RAG systems, computer vision, and GenAI. Available for hire.",
+    siteName: "Devesh Agarwal Portfolio",
+    images: [
+      {
+        url: "/images/profile.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Devesh Agarwal",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Devesh Agarwal - Machine Learning Engineer & Applied Scientist",
+    description: "Machine Learning Engineer specializing in AI/ML, RAG systems, and computer vision. Available for hire.",
+    images: ["/images/profile.jpeg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 };
 
 export default function RootLayout({
@@ -36,6 +90,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <StructuredData />
+      </head>
       <body className={`${inter.variable} ${cairoPlay.variable} ${monofett.variable}`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           {/* Content */}
