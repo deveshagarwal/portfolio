@@ -41,12 +41,34 @@
     @apply border-border;
   }
 
+  html, body {
+    min-height: 100%;
+    height: 100%;
+  }
+
   body {
     @apply bg-background;
     color: white;
     font-family: var(--font-body), -apple-system, sans-serif;
     font-weight: 300;
     letter-spacing: 0.01em;
+    background-image: url('/images/space-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+    z-index: 1;
   }
 
   h1, h2, h3, h4, h5, h6, p, span, div, label {

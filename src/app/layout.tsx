@@ -38,19 +38,9 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.variable} ${cairoPlay.variable} ${monofett.variable}`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
-          {/* Global space background */}
-          <div className="fixed inset-0 z-0 w-screen h-screen overflow-hidden">
-            <img
-              src="/images/space-background.jpg"
-              alt="Space background"
-              className="w-full h-full object-cover opacity-80 scale-110"
-            />
-            <div className="absolute inset-0 bg-background/20"></div>
-          </div>
-
           {/* Content */}
           <div className="relative z-10">
-            <div className="fixed inset-0 bg-white/10 pointer-events-none"></div>
+            <div className="fixed inset-0 bg-white/10 pointer-events-none z-1"></div>
             <div className="relative z-20">
               <CursorFollower />
               <Navigation />
