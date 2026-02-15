@@ -72,8 +72,17 @@
     z-index: 0;
   }
 
-  h1, h2, h3, h4, h5, h6, p, span, div, label {
+  h1, h2, h3, h4, h5, h6, label {
     color: white !important;
+  }
+
+  p, span, div {
+    color: white;
+  }
+
+  /* Allow anchor tags and their inline styles to work */
+  a {
+    color: inherit;
   }
 
   .text-muted-foreground {
