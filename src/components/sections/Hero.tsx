@@ -70,7 +70,7 @@ export function Hero() {
         transition={{ duration: 0.8 }}
         className="w-full max-w-6xl relative z-10 mb-8 sm:mb-12"
       >
-        <div className="w-full h-[60vh] sm:h-[65vh] md:h-[70vh] relative">
+        <div className="w-full h-[70vh] sm:h-[70vh] md:h-[70vh] relative">
           <ConstellationView
             nodes={randomizedNodes}
             connections={mapConfig.connections}
