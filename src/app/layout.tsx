@@ -39,11 +39,11 @@ export default function RootLayout({
       <body className={`${inter.variable} ${cairoPlay.variable} ${monofett.variable}`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           {/* Global space background */}
-          <div className="fixed inset-0 z-0">
+          <div className="fixed inset-0 z-0 min-h-screen">
             <img
               src="/images/space-background.jpg"
               alt="Space background"
-              className="w-full h-full object-cover opacity-80"
+              className="w-full min-h-screen h-full object-cover opacity-80"
             />
             <div className="absolute inset-0 bg-background/20"></div>
           </div>
