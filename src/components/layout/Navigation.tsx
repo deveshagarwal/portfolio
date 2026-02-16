@@ -16,6 +16,7 @@ export function Navigation() {
     { label: "Reading", path: "/reading" },
     { label: "Movies", path: "/movies" },
     { label: "Music", path: "/music" },
+    { label: "Travel", path: "/travel" },
   ];
 
   const handleNavigation = (path: string) => {

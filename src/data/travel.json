@@ -1,0 +1,579 @@
+{
+  "intro": "Interact with the globe and hover over the city lights to discover where I've been",
+  "cities": [
+    {
+      "id": "kolkata",
+      "name": "Kolkata",
+      "country": "India",
+      "lat": 22.5726,
+      "lng": 88.3639
+    },
+    {
+      "id": "new-delhi",
+      "name": "New Delhi",
+      "country": "India",
+      "lat": 28.6139,
+      "lng": 77.2090
+    },
+    {
+      "id": "bangalore",
+      "name": "Bangalore",
+      "country": "India",
+      "lat": 12.9716,
+      "lng": 77.5946
+    },
+    {
+      "id": "mumbai",
+      "name": "Mumbai",
+      "country": "India",
+      "lat": 19.0760,
+      "lng": 72.8777
+    },
+    {
+      "id": "chennai",
+      "name": "Chennai",
+      "country": "India",
+      "lat": 13.0827,
+      "lng": 80.2707
+    },
+    {
+      "id": "dubai",
+      "name": "Dubai",
+      "country": "UAE",
+      "lat": 25.2048,
+      "lng": 55.2708
+    },
+    {
+      "id": "sharjah",
+      "name": "Sharjah",
+      "country": "UAE",
+      "lat": 25.3463,
+      "lng": 55.4209
+    },
+    {
+      "id": "ajman",
+      "name": "Ajman",
+      "country": "UAE",
+      "lat": 25.4052,
+      "lng": 55.5136
+    },
+    {
+      "id": "amman",
+      "name": "Amman",
+      "country": "Jordan",
+      "lat": 31.9454,
+      "lng": 35.9284
+    },
+    {
+      "id": "guangzhou",
+      "name": "Guangzhou",
+      "country": "China",
+      "lat": 23.1291,
+      "lng": 113.2644
+    },
+    {
+      "id": "hong-kong",
+      "name": "Hong Kong",
+      "country": "Hong Kong",
+      "lat": 22.3193,
+      "lng": 114.1694
+    },
+    {
+      "id": "macau",
+      "name": "Macau",
+      "country": "Macau",
+      "lat": 22.1987,
+      "lng": 113.5439
+    },
+    {
+      "id": "singapore",
+      "name": "Singapore",
+      "country": "Singapore",
+      "lat": 1.3521,
+      "lng": 103.8198
+    },
+    {
+      "id": "kuala-lumpur",
+      "name": "Kuala Lumpur",
+      "country": "Malaysia",
+      "lat": 3.1390,
+      "lng": 101.6869
+    },
+    {
+      "id": "bangkok",
+      "name": "Bangkok",
+      "country": "Thailand",
+      "lat": 13.7563,
+      "lng": 100.5018
+    },
+    {
+      "id": "pattaya",
+      "name": "Pattaya",
+      "country": "Thailand",
+      "lat": 12.9236,
+      "lng": 100.8825
+    },
+    {
+      "id": "sydney",
+      "name": "Sydney",
+      "country": "Australia",
+      "lat": -33.8688,
+      "lng": 151.2093
+    },
+    {
+      "id": "melbourne",
+      "name": "Melbourne",
+      "country": "Australia",
+      "lat": -37.8136,
+      "lng": 144.9631
+    },
+    {
+      "id": "gold-coast",
+      "name": "Gold Coast",
+      "country": "Australia",
+      "lat": -28.0167,
+      "lng": 153.4000
+    },
+    {
+      "id": "nyc",
+      "name": "New York City",
+      "country": "USA",
+      "lat": 40.7128,
+      "lng": -74.0060
+    },
+    {
+      "id": "washington-dc",
+      "name": "Washington DC",
+      "country": "USA",
+      "lat": 38.9072,
+      "lng": -77.0369
+    },
+    {
+      "id": "chicago",
+      "name": "Chicago",
+      "country": "USA",
+      "lat": 41.8781,
+      "lng": -87.6298
+    },
+    {
+      "id": "denver",
+      "name": "Denver",
+      "country": "USA",
+      "lat": 39.7392,
+      "lng": -104.9903
+    },
+    {
+      "id": "san-francisco",
+      "name": "San Francisco",
+      "country": "USA",
+      "lat": 37.7749,
+      "lng": -122.4194
+    },
+    {
+      "id": "san-diego",
+      "name": "San Diego",
+      "country": "USA",
+      "lat": 32.7157,
+      "lng": -117.1611
+    },
+    {
+      "id": "los-angeles",
+      "name": "Los Angeles",
+      "country": "USA",
+      "lat": 34.0522,
+      "lng": -118.2437
+    },
+    {
+      "id": "las-vegas",
+      "name": "Las Vegas",
+      "country": "USA",
+      "lat": 36.1699,
+      "lng": -115.1398
+    },
+    {
+      "id": "london",
+      "name": "London",
+      "country": "UK",
+      "lat": 51.5074,
+      "lng": -0.1278
+    },
+    {
+      "id": "edinburgh",
+      "name": "Edinburgh",
+      "country": "UK",
+      "lat": 55.9533,
+      "lng": -3.1883
+    },
+    {
+      "id": "cardiff",
+      "name": "Cardiff",
+      "country": "UK",
+      "lat": 51.4816,
+      "lng": -3.1791
+    },
+    {
+      "id": "inverness",
+      "name": "Inverness",
+      "country": "UK",
+      "lat": 57.4778,
+      "lng": -4.2247
+    },
+    {
+      "id": "fairbanks",
+      "name": "Fairbanks",
+      "country": "USA",
+      "lat": 64.8378,
+      "lng": -147.7164
+    },
+    {
+      "id": "seward",
+      "name": "Seward",
+      "country": "USA",
+      "lat": 60.1044,
+      "lng": -149.4422
+    },
+    {
+      "id": "anchorage",
+      "name": "Anchorage",
+      "country": "USA",
+      "lat": 61.2181,
+      "lng": -149.9003
+    },
+    {
+      "id": "berkeley",
+      "name": "Berkeley",
+      "country": "USA",
+      "lat": 37.8715,
+      "lng": -122.2730
+    },
+    {
+      "id": "barcelona",
+      "name": "Barcelona",
+      "country": "Spain",
+      "lat": 41.3851,
+      "lng": 2.1734
+    },
+    {
+      "id": "rome",
+      "name": "Rome",
+      "country": "Italy",
+      "lat": 41.9028,
+      "lng": 12.4964
+    },
+    {
+      "id": "vatican-city",
+      "name": "Vatican City",
+      "country": "Vatican City",
+      "lat": 41.9029,
+      "lng": 12.4534
+    },
+    {
+      "id": "amsterdam",
+      "name": "Amsterdam",
+      "country": "Netherlands",
+      "lat": 52.3676,
+      "lng": 4.9041
+    },
+    {
+      "id": "mexico-city",
+      "name": "Mexico City",
+      "country": "Mexico",
+      "lat": 19.4326,
+      "lng": -99.1332
+    },
+    {
+      "id": "basseterre",
+      "name": "Basseterre",
+      "country": "St. Kitts and Nevis",
+      "lat": 17.3026,
+      "lng": -62.7177
+    },
+    {
+      "id": "nassau",
+      "name": "Nassau",
+      "country": "Bahamas",
+      "lat": 25.0443,
+      "lng": -77.3504
+    },
+    {
+      "id": "cancun",
+      "name": "Cancun",
+      "country": "Mexico",
+      "lat": 21.1619,
+      "lng": -86.8515
+    },
+    {
+      "id": "istanbul",
+      "name": "Istanbul",
+      "country": "Turkey",
+      "lat": 41.0082,
+      "lng": 28.9784
+    },
+    {
+      "id": "galle",
+      "name": "Galle",
+      "country": "Sri Lanka",
+      "lat": 6.0535,
+      "lng": 80.2210
+    },
+    {
+      "id": "salzburg",
+      "name": "Salzburg",
+      "country": "Austria",
+      "lat": 47.8095,
+      "lng": 13.0550
+    },
+    {
+      "id": "vienna",
+      "name": "Vienna",
+      "country": "Austria",
+      "lat": 48.2082,
+      "lng": 16.3738
+    },
+    {
+      "id": "budapest",
+      "name": "Budapest",
+      "country": "Hungary",
+      "lat": 47.4979,
+      "lng": 19.0402
+    },
+    {
+      "id": "zurich",
+      "name": "Zurich",
+      "country": "Switzerland",
+      "lat": 47.3769,
+      "lng": 8.5417
+    },
+    {
+      "id": "bern",
+      "name": "Bern",
+      "country": "Switzerland",
+      "lat": 46.9480,
+      "lng": 7.4474
+    },
+    {
+      "id": "st-thomas",
+      "name": "St. Thomas",
+      "country": "US Virgin Islands",
+      "lat": 18.3381,
+      "lng": -64.8941
+    },
+    {
+      "id": "maui",
+      "name": "Maui",
+      "country": "USA",
+      "lat": 20.7984,
+      "lng": -156.3319
+    },
+    {
+      "id": "port-louis",
+      "name": "Port Louis",
+      "country": "Mauritius",
+      "lat": -20.1609,
+      "lng": 57.5012
+    },
+    {
+      "id": "bodrum",
+      "name": "Bodrum",
+      "country": "Turkey",
+      "lat": 37.0344,
+      "lng": 27.4305
+    },
+    {
+      "id": "ankara",
+      "name": "Ankara",
+      "country": "Turkey",
+      "lat": 39.9334,
+      "lng": 32.8597
+    },
+    {
+      "id": "cappadocia",
+      "name": "Cappadocia",
+      "country": "Turkey",
+      "lat": 38.6431,
+      "lng": 34.8286
+    },
+    {
+      "id": "antwerp",
+      "name": "Antwerp",
+      "country": "Belgium",
+      "lat": 51.2194,
+      "lng": 4.4025
+    },
+    {
+      "id": "prague",
+      "name": "Prague",
+      "country": "Czech Republic",
+      "lat": 50.0755,
+      "lng": 14.4378
+    },
+    {
+      "id": "paris",
+      "name": "Paris",
+      "country": "France",
+      "lat": 48.8566,
+      "lng": 2.3522
+    },
+    {
+      "id": "phoenix",
+      "name": "Phoenix",
+      "country": "USA",
+      "lat": 33.4484,
+      "lng": -112.0740
+    },
+    {
+      "id": "grand-canyon",
+      "name": "Grand Canyon",
+      "country": "USA",
+      "lat": 36.1069,
+      "lng": -112.1129
+    },
+    {
+      "id": "yosemite",
+      "name": "Yosemite",
+      "country": "USA",
+      "lat": 37.8651,
+      "lng": -119.5383
+    },
+    {
+      "id": "madison",
+      "name": "Madison",
+      "country": "USA",
+      "lat": 43.0731,
+      "lng": -89.4012
+    },
+    {
+      "id": "philadelphia",
+      "name": "Philadelphia",
+      "country": "USA",
+      "lat": 39.9526,
+      "lng": -75.1652
+    },
+    {
+      "id": "sicily",
+      "name": "Sicily",
+      "country": "Italy",
+      "lat": 37.5999,
+      "lng": 14.0154
+    },
+    {
+      "id": "frankfurt",
+      "name": "Frankfurt",
+      "country": "Germany",
+      "lat": 50.1109,
+      "lng": 8.6821
+    },
+    {
+      "id": "pune",
+      "name": "Pune",
+      "country": "India",
+      "lat": 18.5204,
+      "lng": 73.8567
+    },
+    {
+      "id": "goa",
+      "name": "Goa",
+      "country": "India",
+      "lat": 15.2993,
+      "lng": 74.1240
+    },
+    {
+      "id": "chandigarh",
+      "name": "Chandigarh",
+      "country": "India",
+      "lat": 30.7333,
+      "lng": 76.7794
+    },
+    {
+      "id": "hyderabad",
+      "name": "Hyderabad",
+      "country": "India",
+      "lat": 17.3850,
+      "lng": 78.4867
+    },
+    {
+      "id": "agra",
+      "name": "Agra",
+      "country": "India",
+      "lat": 27.1767,
+      "lng": 78.0081
+    },
+    {
+      "id": "siliguri",
+      "name": "Siliguri",
+      "country": "India",
+      "lat": 26.7271,
+      "lng": 88.3953
+    },
+    {
+      "id": "srinagar",
+      "name": "Srinagar",
+      "country": "India",
+      "lat": 34.0837,
+      "lng": 74.7973
+    },
+    {
+      "id": "jammu",
+      "name": "Jammu",
+      "country": "India",
+      "lat": 32.7266,
+      "lng": 74.8570
+    },
+    {
+      "id": "coorg",
+      "name": "Coorg",
+      "country": "India",
+      "lat": 12.3375,
+      "lng": 75.8069
+    },
+    {
+      "id": "jaipur",
+      "name": "Jaipur",
+      "country": "India",
+      "lat": 26.9124,
+      "lng": 75.7873
+    },
+    {
+      "id": "patna",
+      "name": "Patna",
+      "country": "India",
+      "lat": 25.5941,
+      "lng": 85.1376
+    },
+    {
+      "id": "miami",
+      "name": "Miami",
+      "country": "USA",
+      "lat": 25.7617,
+      "lng": -80.1918
+    },
+    {
+      "id": "orlando",
+      "name": "Orlando",
+      "country": "USA",
+      "lat": 28.5383,
+      "lng": -81.3792
+    },
+    {
+      "id": "new-orleans",
+      "name": "New Orleans",
+      "country": "USA",
+      "lat": 29.9511,
+      "lng": -90.0715
+    },
+    {
+      "id": "minneapolis",
+      "name": "Minneapolis",
+      "country": "USA",
+      "lat": 44.9778,
+      "lng": -93.2650
+    },
+    {
+      "id": "northfield",
+      "name": "Northfield",
+      "country": "USA",
+      "lat": 44.4583,
+      "lng": -93.1616
+    }
+  ]
+}

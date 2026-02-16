@@ -59,6 +59,16 @@
         "y": 51
       },
       "icon": "music"
+    },
+    {
+      "id": "travel",
+      "label": "Travel",
+      "targetSection": "/travel",
+      "position": {
+        "x": 15,
+        "y": 50
+      },
+      "icon": "plane"
     }
   ],
   "connections": [
@@ -81,6 +91,10 @@
     {
       "from": "center",
       "to": "music"
+    },
+    {
+      "from": "center",
+      "to": "travel"
     }
   ]
 }
