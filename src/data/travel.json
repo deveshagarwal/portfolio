@@ -574,6 +574,97 @@
       "country": "USA",
       "lat": 44.4583,
       "lng": -93.1616
+    },
+    {
+      "id": "darjeeling",
+      "name": "Darjeeling",
+      "country": "India",
+      "lat": 27.0410,
+      "lng": 88.2663
+    },
+    {
+      "id": "ladakh",
+      "name": "Ladakh",
+      "country": "India",
+      "lat": 34.1526,
+      "lng": 77.5771
+    },
+    {
+      "id": "shillong",
+      "name": "Shillong",
+      "country": "India",
+      "lat": 25.5788,
+      "lng": 91.8933
+    },
+    {
+      "id": "phuket",
+      "name": "Phuket",
+      "country": "Thailand",
+      "lat": 7.8804,
+      "lng": 98.3923
+    },
+    {
+      "id": "genting-highlands",
+      "name": "Genting Highlands",
+      "country": "Malaysia",
+      "lat": 3.4234,
+      "lng": 101.7932
+    },
+    {
+      "id": "koh-samui",
+      "name": "Koh Samui",
+      "country": "Thailand",
+      "lat": 9.5085,
+      "lng": 100.0147
+    },
+    {
+      "id": "colombo",
+      "name": "Colombo",
+      "country": "Sri Lanka",
+      "lat": 6.9271,
+      "lng": 79.8612
+    },
+    {
+      "id": "leeds",
+      "name": "Leeds",
+      "country": "UK",
+      "lat": 53.8008,
+      "lng": -1.5491
+    },
+    {
+      "id": "teotihuacan",
+      "name": "Teotihuacan",
+      "country": "Mexico",
+      "lat": 19.6925,
+      "lng": -98.8438
+    },
+    {
+      "id": "portland",
+      "name": "Portland",
+      "country": "USA",
+      "lat": 45.5152,
+      "lng": -122.6784
+    },
+    {
+      "id": "haleakala",
+      "name": "Haleakala",
+      "country": "USA",
+      "lat": 20.7097,
+      "lng": -156.2533
+    },
+    {
+      "id": "kaanapali",
+      "name": "Kaanapali",
+      "country": "USA",
+      "lat": 20.9297,
+      "lng": -156.6942
+    },
+    {
+      "id": "hana",
+      "name": "Hana",
+      "country": "USA",
+      "lat": 20.7583,
+      "lng": -156.0144
     }
   ]
 }
